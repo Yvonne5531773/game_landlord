@@ -1,0 +1,24 @@
+﻿<style>
+<class name="msgboxhead" font="0000" crtext="000000" crbg="0B363A" bggdiplus="1"/>
+<class name="msgboxbody" font="0000" crtext="000000" crbg="FFFFFF"  bggdiplus="1"/>
+<class name="msgboxfoot"  font="0000" crtext="000000" crbg="0FF0FF"  bggdiplus="1"/>
+
+<class name="dlgtitle" font="0607" crtext="4E759A" textmode="24" gdiplus="1" gdipluscalctxt="1" gditxtrndhit="3"/>
+<class name="linkimage" cursor="hand"/>
+
+<class name="band_class_bg" crbg="ffffff" alphabg="100" bggdiplus="1"/>
+<class name="dizhu_flag_class_bg" crbg="ff0000" alphabg="200" bggdiplus="1"/>
+<class name="center_text_class" textmode="25"/>
+<class name="left_text_class" textmode="24"/>
+<class name="top_band_class_bg" crbg="ffffff" alphabg="50" bggdiplus="1"/>
+<class name="top_band_text_class" textmode="25" gdiplus="1" gdipluscalctxt="1"/>
+<class name="top_band_text_class2" textmode="20" gdiplus="1" gdipluscalctxt="1"/>
+
+<class name="gdiplus_center_text_class" textmode="25" gdiplus="1" gdipluscalctxt="1" />
+<class name="game_over_dlg_class" crbg="000000" alphabg="150" bggdiplus="1" />
+<class name="game_over_dlg_class2" crbg="ffffff" alphabg="200" bggdiplus="1" />
+<class name="center_text_class_with_shadow" textmode="25" crshadow="000000" shadow="1"/>
+<class name="game_over_richtext_class" linespacing="40"/>
+<class name="game_over_richtext_item_class" textmode="25" font="0800" crtext="0f0f0f"/>
+<class name="game_over_richtext_item_class_red" textmode="25" font="0800" crtext="ff0000"/>
+</style>

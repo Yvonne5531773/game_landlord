@@ -1,0 +1,32 @@
+﻿<string>
+  <s id="10">使用中文测试</s>
+  <s id="11">BkWin Test--加载外部资源</s>
+  
+  <s id="98">不叫地主</s>
+  <s id="99">叫地主</s>
+  <s id="100">抢地主</s>
+  <s id="101">不抢地主</s>
+  <s id="102">不要</s>
+  <s id="103">出牌超时</s>
+  <s id="104">出牌出错</s>
+  <s id="105">抢地主超时</s>
+  <s id="106">等待叫地主</s>
+  <s id="107">等待出牌</s>
+  <s id="108">出了牌</s>
+  <s id="109">等待抢地主</s>
+
+  <s id="200"><![CDATA[
+	<text class="game_over_richtext_item_class">%s：</text>
+	<offset lenght="10"/>
+	<text class="game_over_richtext_item_class_red">%s</text>]]></s>
+
+  <s id="201">本轮比赛结果</s>
+  <s id="202">最终比赛结果</s>
+  
+  
+  <s id="300">2</s>
+  
+  <s id="400">地主胜利!</s>
+  <s id="401">农民胜利!</s>
+  <s id="403">倒计时自动开始：%d</s>
+</string>

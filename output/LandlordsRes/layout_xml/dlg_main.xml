@@ -1,0 +1,156 @@
+<layer title="BkWin" width="1150" height="800" appwin="1" resize="1" layered="0">
+	<header crbg="D19130" width="full" height="full">
+		<UiControlBackgroudImage pos="0,0,-0,-0" ResId="100"/>
+		<dlg pos="120,0,-120,-0">
+
+			<UiControlCardLayout id="10000" pos="0,0,100,-0" VerticalLayout="1"/>
+			<UiControlCardLayout id="20000" pos="100,-270,-100,-120" VerticalLayout="0"/>
+			<UiControlCardLayout id="30000" pos="-100,0,-0,-0" VerticalLayout="1"/>
+
+			<UiControlCardLayout id="40000" pos="100,-720,-100,-270" VerticalLayout="0">
+				<!--<UiControlCard pos="0,0,-0,-0" CardImageId="40057" BlackMode="0" />
+				<UiControlCard pos="0,0,-0,-0" CardImageId="40055" BlackMode="0" />
+				<UiControlCard pos="0,0,-0,-0" CardImageId="40051" BlackMode="0" />-->
+			</UiControlCardLayout>
+		</dlg>
+		
+		<dlg pos="10,10,110,-10">
+			<UiControlHeadIcon id="1000" pos="0,|-310,-0,|-210" ResId="101" Gray="1"/>
+			<dlg id="1010" pos="-40,|-310,-0,|-280" show="0">
+				<rundrectpath pos="0,0,-0,-0" rndwidht="8" rndheight="8" bdrawbg="1" crline="0000000" crlinealpha="100" class="dizhu_flag_class_bg"/>
+				<text font="0204" pos="0,0,-0,-0" class="center_text_class" crtext="ffffff">地主</text>
+			</dlg>
+			
+			<dlg pos="0,|-200,-0,|200">
+				<rundrectpath pos="0,0,-0,-0" rndwidht="8" rndheight="8" bdrawbg="1" crline="0000000" crlinealpha=100 class="band_class_bg"/>
+				
+				<text font="0404" pos="4,10">选手：</text>
+				<text id="1001" font="0404" pos="4,40" crtext="ff0000"></text>
+				
+				<text font="0404" pos="4,90">积分：</text>
+				<text id="1002" font="0404" pos="4,120" crtext="ff0000"></text>
+				
+				<text font="0404" pos="4,170">出错次数：</text>
+				<text id="1003" font="0404" pos="4,200" crtext="ff0000"></text>
+				
+			</dlg>
+		</dlg>
+		
+		<dlg pos="110,-110,-110,-10">
+		
+			<UiControlHeadIcon id="2000" pos="|-310,0,|-210,-0" ResId="101" Gray="1"/>
+			<dlg id="2010" pos="|-250,0,|-210,30" show="0">
+				<rundrectpath pos="0,0,-0,-0" rndwidht="8" rndheight="8" bdrawbg="1" crline="0000000" crlinealpha="100" class="dizhu_flag_class_bg"/>
+				<text font="0204" pos="0,0,-0,-0" class="center_text_class" crtext="ffffff">地主</text>
+			</dlg>
+			
+			<dlg pos="|-200,0,|200,-0">
+				<rundrectpath pos="0,0,-0,-0" rndwidht="8" rndheight="8" bdrawbg="1" crline="0000000" crlinealpha=100 class="band_class_bg"/>
+				
+				<text font="0404" pos="4,10">选手：</text>
+				<text id="2001" font="0404" pos="50,10" crtext="ff0000"></text>
+				
+				<text font="0404" pos="4,40">积分：</text>
+				<text id="2002" font="0404" pos="50,40" crtext="ff0000"></text>
+				
+				<text font="0404" pos="4,70">出错次数：</text>
+				<text id="2003" font="0404" pos="80,70" crtext="ff0000"></text>
+				
+			</dlg>
+			
+		</dlg>
+		
+		<dlg pos="-110,10,-10,-10">
+			<UiControlHeadIcon id="3000" pos="0,|-310,-0,|-210" ResId="101" Gray="1"/>
+			<dlg id="3010" pos="-40,|-310,-0,|-280" show="0">
+				<rundrectpath pos="0,0,-0,-0" rndwidht="8" rndheight="8" bdrawbg="1" crline="0000000" crlinealpha="100" class="dizhu_flag_class_bg"/>
+				<text font="0204" pos="0,0,-0,-0" class="center_text_class" crtext="ffffff">地主</text>
+			</dlg>
+			
+			<dlg pos="0,|-200,-0,|200">
+				<rundrectpath pos="0,0,-0,-0" rndwidht="8" rndheight="8" bdrawbg="1" crline="0000000" crlinealpha=100 class="band_class_bg"/>
+				
+				<text font="0404" pos="4,10">选手：</text>
+				<text id="3001" font="0404" pos="4,40" crtext="ff0000"></text>
+				
+				<text font="0404" pos="4,90">积分：</text>
+				<text id="3002" font="0404" pos="4,120" crtext="ff0000"></text>
+				
+				<text font="0404" pos="4,170">出错次数：</text>
+				<text id="3003" font="0404" pos="4,200" crtext="ff0000"></text>
+			</dlg>
+		</dlg>
+		
+
+		<!--top band-->
+		<dlg pos="110,10,-110,100">
+		
+			<UiControlCardLayout id="6000" pos="0,0,-0,90" VerticalLayout="0" CardWidth="60" CardHeight="90">
+				<!--<UiControlCard pos="0,0,-0,-0" CardImageId="40057" BlackMode="1" />
+				<UiControlCard pos="0,0,-0,-0" CardImageId="40055" BlackMode="1" />
+				<UiControlCard pos="0,0,-0,-0" CardImageId="40051" BlackMode="1" />-->
+			</UiControlCardLayout>
+			
+			<dlg pos="|-310,0,|-70,-30">
+				<rundrectpath pos="0,0,-0,-0" rndwidht="8" rndheight="8" bdrawbg="1" crline="ff00000" crlinealpha="60" class="top_band_class_bg"/>
+				<text font="0404" pos="4,20" class="top_band_text_class" alphatxt="255" >局数：</text>
+				<text id="6001" font="0404" pos="50,20" class="top_band_text_class" crtext="ff0000" alphatxt="255">0</text>
+				<text font="0404" pos="75,20" class="top_band_text_class" alphatxt="255" >底分：</text>
+				<text id="6002" font="0404" pos="125,20" class="top_band_text_class" crtext="ff0000" alphatxt="255">1</text>
+				<text font="0404" pos="150,20" class="top_band_text_class" alphatxt="255" >倍数：</text>
+				<text id="6003" font="0404" pos="200,20" class="top_band_text_class" crtext="ff0000" alphatxt="255">1</text>
+			</dlg>
+		</dlg>
+		
+		<dlg pos="120,120,-120,-120">
+		
+			<dlg id="7000" pos="120,|-160,200,|-80" show="0">
+				<text id="7001" font="0204" pos="0,0,-0,40" class="center_text_class" crtext="ffffff">等待叫地主</text>
+				<dlg pos="|-20,40,|20,-0">
+					<rundrectpath pos="0,0,-0,-0" rndwidht="20" rndheight="20" bdrawbg="1" crline="0000000" crlinealpha="100" class="dizhu_flag_class_bg"/>
+					<text id="7002" font="0204" pos="0,0,-0,-0" class="center_text_class" crtext="ffffff">30</text>
+				</dlg>
+			</dlg>
+
+			<text id="8000" pos="120,|-160,240,|-80" class="gdiplus_center_text_class" font="0804" crtext="ff0000" alphatxt="255" show="0">抢地主</text>
+			<text id="8001" pos="|-80,-270,|40,-190" class="gdiplus_center_text_class" font="0804" crtext="ff0000" alphatxt="255" show="0">抢地主</text>
+			<text id="8002" pos="-240,|-160,-120,|-80" class="gdiplus_center_text_class" font="0804" crtext="ff0000" alphatxt="255"show="0">抢地主</text>
+		</dlg>
+        
+		<dlg id="9000" pos="0,0,-0,-0" class="game_over_dlg_class" show="0">
+			<dlg pos="|-300,|-200,|300,|200">
+				<rundrectpath pos="0,0,-0,-0" rndwidht="20" rndheight="20" bdrawbg="1" crline="0000000" crlinealpha="100" class="game_over_dlg_class2"/>
+				<text id="9010" pos="0,0,-0,80" class="center_text_class_with_shadow" crtext="ff0000" font="2004">%str201%</text>
+				
+				<text id="9011" pos="40,80,-0,104" class="left_text_class" crtext="ff0000" font="0404">地主胜利</text>
+				
+				<dlg pos="40,110,-20,-100">
+					<richtext2 id="9001" pos="0,0,-0,40" class="game_over_richtext_class">
+						<text class="game_over_richtext_item_class">挂队长：</text>
+						<offset lenght="10"/>
+						<text class="game_over_richtext_item_class_red">+10</text>
+					</richtext2>
+
+					<richtext2 id="9002" pos="0,40,-0,80" class="game_over_richtext_class">
+						<text class="game_over_richtext_item_class">挂队长：</text>
+						<offset lenght="10"/>
+						<text class="game_over_richtext_item_class_red">+10</text>
+					</richtext2>
+
+					<richtext2 id="9003" pos="0,80,-0,120" class="game_over_richtext_class">
+						<text class="game_over_richtext_item_class">挂队长：</text>
+						<offset lenght="10"/>
+						<text class="game_over_richtext_item_class_red">+10</text>
+					</richtext2>
+				</dlg>
+				<imgbtn id="9050" skin="start_game_btn" pos="|-150,|60" class="linkimage" show="1"></imgbtn>
+				<text id="9051" class="center_text_class" pos="|-200,|20,|200,|50" font="0200" crtext="ff0000">%str403%</text>
+			</dlg>
+		</dlg>
+		
+		
+		<imgbtn id="100" skin="closebtn" pos="-34,1" class="linkimage"></imgbtn>
+		<imgbtn id="101" skin="start_game_btn" pos="|-150,|-30" class="linkimage" show="0"></imgbtn>
+
+	</header>
+</layer>

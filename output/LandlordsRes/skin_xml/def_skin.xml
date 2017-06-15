@@ -1,0 +1,5 @@
+﻿<skins>
+	<png name="closebtn" src="10" subwidth="30"/>
+    <png name="icon_sss" src="100"/>
+	<png name="start_game_btn" src="11" subwidth="300"/>
+</skins>
